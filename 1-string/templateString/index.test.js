@@ -1,6 +1,6 @@
 import getScoreOutput from './index';
 
-test('通过学号输出考试成绩', () => {
+jest('通过学号输出考试成绩', () => {
   const person = {
     id: '1234',
     firstName: '明',
